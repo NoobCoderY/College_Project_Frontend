@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Dashbaord from "./pages/Dashbaord/Dashbaord";
-import Users from "./components/DashBoardSidebar/Users/Users";
+
 import { useDispatch, useSelector } from "react-redux";
 
 import { useEffect, useState } from "react";
@@ -21,6 +21,7 @@ import { userActions } from "./store/userSlice";
 import Addblog2 from "./components/DashBoardSidebar/AddBlog copy/Addblog2";
 
 import Directbuy from "./components/DashBoardSidebar/BuyingList/Directbuy";
+import Directbuy2 from "./components/DashBoardSidebar/BuyingList2/Directbuy2";
 
 function LayoutsWithNavbar() {
   return (
@@ -98,8 +99,13 @@ function App() {
           
 
             <Route
-              path="/dashbaord/Buying-List"
+              path="/dashbaord/bins"
               element={<Directbuy width={width} />}
+            />
+
+            <Route
+              path="/dashbaord/allbins"
+              element={<Directbuy2 width={width} />}
             />
           </Route>
         </Routes>

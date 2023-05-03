@@ -50,7 +50,7 @@ const style1 = {
   p: 1,
 };
 
-export default function Directbuy({ width }) {
+export default function Directbuy2({ width }) {
   const { user } = useSelector((state) => state.user);
 
   const [page, setPage] = useState(1);
@@ -125,7 +125,7 @@ export default function Directbuy({ width }) {
   }, [page, setSelectedCategory, recall, user]);
   return (
     <div style={{ paddingTop: "1vw" }} className="BrowseWorkMain-cntainer">
-  
+    
       <div
         style={{
           overflowX: "scroll",

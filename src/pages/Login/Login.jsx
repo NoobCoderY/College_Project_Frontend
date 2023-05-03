@@ -52,6 +52,7 @@ export default function Login() {
         localStorage.setItem("token", JSON.stringify(res.data.token));
         localStorage.setItem("user", JSON.stringify(res.data.user));
         navigate("/dashbaord");
+        document.cookie = `token=${res.cookieValue}; max-age=3600; path=/"`;
       })
       .catch((e) => {
         console.log(e.response);

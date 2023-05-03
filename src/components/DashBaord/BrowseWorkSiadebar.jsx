@@ -112,24 +112,24 @@ export default function BrowseWorkSiadebar() {
         </div>
       </Link>
 
-      <Link to="/dashbaord/Buying-List">
+      <Link to="/dashbaord/bins">
         <div
           className={
             colorsidebar === 2 ? "firstsidebarmenu1" : "firstsidebarmenu"
           }
         >
           <img src={img1} alt="" />
-          List of All Bin
+          List of Bin
         </div>
       </Link>
-      <Link to="/dashbaord/Buying-List">
+      <Link to="/dashbaord/allbins">
         <div
           className={
             colorsidebar === 3 ? "firstsidebarmenu1" : "firstsidebarmenu"
           }
         >
           <img src={img1} alt="" />
-          List of Bin
+          List of All Bin
         </div>
       </Link>
     </div>
