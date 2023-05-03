@@ -1,0 +1,340 @@
+.homeabout-container {
+  width: 100vw;
+  padding: 2vw 5vw;
+}
+.homeaboutbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+}
+.logoparthomeabout {
+  width: 45%;
+  text-align: center;
+}
+.textparthomeabout {
+  width: 50%;
+}
+.logoparthomeabout img {
+  width: 37vw;
+  object-fit: contain;
+
+  margin: auto;
+  margin-left: 5vw;
+}
+
+.textabputhome1 {
+  text-align: left;
+  font: normal normal medium 26px/39px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  font-size: 1.65vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 2vw;
+  width: 75%;
+  margin-top: 2vw;
+}
+.textabputhome2 {
+  margin-top: 2vw;
+  text-align: left;
+  font: normal normal medium 26px/39px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-size: 1vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.4vw;
+  width: 75%;
+}
+
+.howitworkhome-container {
+  margin-top: 3vw;
+  width: 100vw;
+}
+.homebluebox {
+  background: #064d87ea 0% 0% no-repeat padding-box;
+  height: 44.5vw;
+  width: 100vw;
+  margin-top: 2vw;
+  /* margin-bottom: 2vw; */
+  padding: 2vw;
+}
+.homebluebox-div1 {
+  display: flex;
+  opacity: 0;
+}
+.homeworktop-button {
+  /* width: 9vw; */
+  padding: 0vw 1vw 0vw 1vw;
+  height: 3vw;
+  text-align: center;
+  background: white;
+  color: #0052cc;
+  margin-left: 1vw;
+  font-size: 1.1vw;
+  font-family: Poppins;
+  font-weight: 500;
+  border-radius: 0.3vw;
+  line-height: 3vw;
+}
+.homeworktop-button2 {
+  /* width: 10vw; */
+  height: 3vw;
+  /* text-align: center; */
+  color: white;
+  font-size: 1.1vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 3vw;
+  margin-left: 1vw;
+}
+
+.homeworkimg1 {
+  width: 25%;
+  margin-top: 1vw;
+}
+.homeworkimg1 img {
+  width: 27vw;
+  object-fit: contain;
+}
+.homeworkimg3 img {
+  width: 27vw;
+  object-fit: contain;
+}
+.homeworkimg2 {
+  width: 50%;
+  margin-top: 4vw;
+  margin-left: 2vw;
+}
+.homeworkimg3 {
+  width: 35%;
+  margin-top: 7vw;
+}
+
+.homeworkimgdiv1 {
+  text-align: left;
+  font: normal normal medium 60px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0.51vw 0;
+  font-size: 4.5vw;
+  line-height: 5vw;
+  font-family: Poppins;
+  /* display: none; */
+}
+.homeworkimgdiv2 {
+  text-align: left;
+  font: normal normal medium 60px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0.51vw 0;
+  font-size: 3vw;
+  line-height: 5vw;
+  font-family: Poppins;
+}
+.homeworkimgdiv3 {
+  text-align: left;
+  font: normal normal medium 60px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 1vw 0;
+  font-size: 1.1vw;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  line-height: 1.72vw;
+  font-family: Poppins;
+}
+.homeworkimgdiv4 {
+  text-align: left;
+  font: normal normal medium 60px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 1vw 0;
+  font-size: 1.1vw;
+  line-height: 1.72vw;
+  width: 90%;
+  font-family: Poppins;
+  margin: 0.5vw 0;
+  display: flex;
+}
+@media only screen and (max-device-width: 700px) {
+  .homeabout-container {
+    width: 100vw;
+    padding: 2vw 2vw;
+  }
+  .homeaboutbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3vw;
+  }
+  .logoparthomeabout {
+    width: 100%;
+    text-align: center;
+  }
+  .textparthomeabout {
+    width: 100%;
+  }
+  .logoparthomeabout img {
+    width: 95%;
+    object-fit: contain;
+
+    margin-bottom: 6vw;
+  }
+
+  .textabputhome1 {
+    text-align: left;
+    font: normal normal medium 26px/39px Poppins;
+    letter-spacing: 0px;
+    color: #0052cc;
+    opacity: 1;
+    font-size: 4.6vw;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 5.5vw;
+    width: 100%;
+    margin-top: 0vw;
+  }
+  .textabputhome2 {
+    margin-top: 2vw;
+    text-align: left;
+    font: normal normal medium 26px/39px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 3vw;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 3.5vw;
+    width: 100%;
+  }
+
+  .howitworkhome-container {
+    margin-top: 3vw;
+    width: 100vw;
+  }
+  .homebluebox {
+    background: #064d87ea 0% 0% no-repeat padding-box;
+    height: 75vw;
+    width: 100vw;
+    margin-top: 3vw;
+    /* margin-bottom: 3vw; */
+    padding: 3vw;
+  }
+  .homebluebox-div1 {
+    display: flex;
+  }
+  .homeworktop-button {
+    width: 30vw;
+    height: 8vw;
+    text-align: center;
+    background: white;
+    color: #0052cc;
+    margin-left: 1vw;
+    font-size: 3.3vw;
+    font-family: Poppins;
+    font-weight: 500;
+    border-radius: 0.3vw;
+    line-height: 8vw;
+  }
+  .homeworktop-button2 {
+    width: 30vw;
+    height: 8vw;
+    /* text-align: center; */
+    color: white;
+    font-size: 3.3vw;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 8vw;
+    margin-left: 3vw;
+  }
+
+  .homeworkimg1 {
+    width: 25%;
+    margin-top: 1vw;
+  }
+  .homeworkimg1 img {
+    width: 27vw;
+    object-fit: contain;
+  }
+  .homeworkimg3 img {
+    width: 27vw;
+    object-fit: contain;
+  }
+  .homeworkimg2 {
+    width: 100%;
+    margin-top: 7vw;
+    margin-left: 2vw;
+  }
+  .homeworkimg3 {
+    width: 35%;
+    margin-top: 7vw;
+  }
+
+  .homeworkimgdiv1 {
+    text-align: left;
+    font: normal normal medium 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 0.51vw 0;
+    font-size: 12vw;
+    line-height: 13vw;
+    font-family: Poppins;
+  }
+  .homeworkimgdiv2 {
+    text-align: left;
+    font: normal normal medium 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 2vw 0;
+    font-size: 8vw;
+    line-height: 9vw;
+    font-family: Poppins;
+  }
+  .homeworkimgdiv3 {
+    text-align: left;
+    font: normal normal medium 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 2vw 0;
+    font-size: 3vw;
+    width: 100%;
+    line-height: 4vw;
+    font-family: Poppins;
+  }
+  .homeworkimgdiv3 img {
+    /* width: 5vw; */
+    font-size: 2vw !important;
+    margin-right: 2vw;
+  }
+  .homeworkimgdiv4 img {
+    /* width: 5vw; */
+    font-size: 2vw !important;
+    margin-right: 2vw;
+  }
+  .homeworkimgdiv4 {
+    text-align: left;
+    font: normal normal medium 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 1vw 0;
+    font-size: 3vw;
+    line-height: 4vw;
+    width: 100%;
+    font-family: Poppins;
+    margin: 2vw 0;
+    display: flex;
+  }
+}

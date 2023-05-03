@@ -1,0 +1,89 @@
+.settingAccountcontainer {
+  width: 70vw;
+  padding: 2vw;
+  margin: 2vw;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+}
+
+.settingAccounttitle {
+  font: var(--unnamed-font-style-normal) normal medium 14px/48px
+    var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 1.1vw;
+  font-weight: 500;
+  font-family: Poppins;
+}
+.settingAccounttitle span {
+  font: var(--unnamed-font-style-normal) normal medium 14px/48px
+    var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal medium 14px/48px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 1.1vw;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #0052cc;
+  cursor: pointer;
+}
+.accountdetailbox {
+  display: flex;
+  margin: 1vw 7.5vw;
+  align-items: center;
+}
+
+/* .settingAccounttitlevalue{
+    color: #000000;
+  opacity: 1;
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: Poppins;
+  padding: 1vw ;
+
+border: 1px solid #7070704D;
+border-radius: 2px;
+} */
+
+.flexbanakcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bankcardContainer {
+  width: 35vw;
+  margin: 2vw 3vw;
+
+  padding: 1vw;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  height: 19vw;
+}
+
+.titleboxflexofbank {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: Poppins;
+}
+.titleboxflexofbank img {
+  cursor: pointer;
+}
+.flexofbankdetails {
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  padding-bottom: 0vw;
+}

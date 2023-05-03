@@ -1,0 +1,156 @@
+.containerppoppop {
+  height: 45vw;
+  width: 46.5vw;
+  padding-bottom: 3vw;
+}
+
+.container-cropper {
+  height: 87%;
+  width: 82%;
+}
+
+.cropper {
+  height: 90%;
+  width: 90%;
+  position: relative;
+}
+
+.slider {
+  height: 1%;
+  
+  position: relative;
+  top: 1vw;
+  left: 4vw;
+  width: 70%;
+}
+.containerppoppopx {
+  height: 43vw;
+  width: 65.5vw;
+}
+
+.container-cropperx {
+  height: 87%;
+  width: 90%;
+}
+
+.cropperx {
+  height: 90%;
+  width: 90%;
+  position: relative;
+}
+
+.sliderx {
+  height: 1%;
+  
+  position: relative;
+  top: 1vw;
+  left: 4vw;
+  width: 76%;
+}
+
+.container-buttons {
+  width: 32vw;
+  margin: 1vw;
+  padding:0 auto;
+  display: flex;
+  justify-content: space-between; 
+  
+}
+.container-buttonsx {
+  width: 51vw;
+  margin: 1vw;
+  padding:0 auto;
+  display: flex !important;
+  justify-content: space-between; 
+  
+}
+.containerppoppopxm {
+  height: 98vw;
+  width: 98vw;
+}
+
+.container-cropperxm {
+  height: 87%;
+  width: 90%;
+}
+
+.cropperxm {
+  height: 90%;
+  width: 100%;
+  position: relative;
+}
+
+.sliderxm {
+  height: 10%;
+  
+  position: relative;
+  top: 2vw;
+  left: 4vw;
+  width: 90%;
+}
+
+.container-buttonsxm {
+  width: 80vw;
+  margin: 6vw 3.5vw;
+  padding:0 auto;
+  display: flex;
+  justify-content: space-between; 
+  
+}
+.container-buttonsx {
+  width: 51vw;
+  margin: 1vw;
+  padding:0 auto;
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+.middlechoodeimagecrops{
+    margin-top: 20vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 15vw;
+    
+}
+.containerpopouo-heading{
+    display: flex;
+    height: 5%;
+    width: 78%;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.containerpopup-heading-hdsbd{
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 19px;
+    color: #000000;
+  
+}
+.containerpopouo-headingm{
+    display: flex;
+    height: 5%;
+    width: 91%;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 2.2vw;
+}
+.containerpopup-heading-hdsbdm{
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.6vw;
+    line-height: 19px;
+    
+    color: #000000;
+  
+}

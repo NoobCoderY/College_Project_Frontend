@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar{
+    width: 0.3em;
+    height: 0.3em;
+    display: none !important;
+ }
+ *::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 3px;
+    display: none !important;
+ }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", Poppins,
+    monospace;
+}
+a {
+  text-decoration: none !important;
+}
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.MuiSelect-select {
+  font-size: 1.1vw !important;
+}
+.selectedhjobfile {
+  font-size: 1vw !important;
+}
+.css-1cccqvr.MuiSelect-select {
+  font-size: 1vw !important;
+}
+.MuiSelect-select {
+  font-size: 1vw !important;
+}
+.labeltextarea {
+  margin-top: 0.2vw !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 1.2vw !important;
+}
+
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 1.2vw !important;
+}
+
+.homepostjob-right {
+  overflow: scroll;
+}
+.input-homejobformdate {
+  width: max-content !important;
+  font-size: 1vw;
+}
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  color: black;
+  font-weight: 400 !important;
+  display: flex;
+  align-items: center;
+}
+
+.jobpostfieldinputbox input {
+  width: 94% !important;
+  fill: black;
+}
+
+.css-29aysa {
+  width: 94% !important;
+  fill: black;
+}
+.makeStyles-select-1 {
+  width: 100% !important;
+  fill: black;
+}
+.jobpostfieldinputbox textarea {
+  width: 94% !important;
+  fill: black;
+}
+.makeStyles-select-73 {
+  width: 100% !important;
+  fill: black;
+}
+
+.makeStyles-select-13 {
+  width: 100% !important;
+  fill: black;
+}
+.makeStyles-select2-2 {
+  width: 100% !important;
+  fill: black;
+}
+.makeStyles-select-3 {
+  width: 100% !important;
+  fill: black;
+}
+.css-tzsjye {
+  padding: 0.51vw 0vw;
+  padding: 0vw 0.2vw;
+  color: black !important;
+  fill: black;
+}
+
+.activejobpostbox {
+  display: flex;
+  margin-right: 1vw;
+
+  align-items: center;
+  height: fit-content !important;
+}
+.jss1 {
+  padding: 0vw 0.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss2 {
+  padding: 0vw 0.2vw;
+  padding: 0vw 0.4vw;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss3 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black !important;
+}
+.jss5 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  padding: 0vw 0.4vw;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss6 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  padding: 0vw 0.4vw;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss9 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss11 {
+  padding: 0vw 0.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss12 {
+  padding: 0vw 0.2vw;
+  padding: 0vw 0.4vw;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss13 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black !important;
+}
+.jss15 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss14 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  padding: 0vw 0.4vw;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss16 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss17 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  padding: 0vw 0.4vw;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+.jss19 {
+  display: flex;
+  padding: 0vw 0.4vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: none;
+  color: black !important;
+  font-weight: 400 !important;
+  fill: black;
+}
+
+.css-1cccqvr.MuiSelect-select {
+  color: black;
+  fill: black;
+}
+
+.recentnamesearc {
+  cursor: pointer;
+}
+
+.jobpostfieldinputbox input {
+  font-size: 1.1vw;
+}
+
+.fileselctednamecate {
+  max-width: 90% !important;
+}
+.redp {
+  font-size: 0.95vw;
+}
+
+@media only screen and (max-device-width: 700px) {
+  .redp {
+    font-size: 2.7vw;
+  }
+}
+
+.boxofViewissue{
+    width: 100%;
+    height: 25vw;
+    box-shadow: 1px 5px 7px #86848429;
+    margin-bottom: 2vw;
+    padding: 1vw;
+}
+
+.tox-notification--warning {
+    display: none !important;
+  }
+  
+  .tox-statusbar__branding {
+    display: none !important;
+  }
+  

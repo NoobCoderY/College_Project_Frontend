@@ -1,0 +1,224 @@
+.nav-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 100vw;
+  position: sticky !important;
+  top: 0vw;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.95vw 4vw;
+  z-index: 1040;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-menuitems {
+  display: flex;
+  width: 55vw;
+  justify-content: space-between;
+}
+.nav-menuitems div {
+  line-height: 2.8vw;
+  font: normal normal medium 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: Poppins;
+  cursor: pointer;
+}
+.nav-button {
+  border: none;
+  outline: none;
+  height: 3vw;
+  background-color: #0052cc;
+  border-radius: 0.31vw;
+  font: normal normal medium 14px/21px Poppins;
+  font-family: Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 7vw;
+  font-size: 1vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 41vw;
+}
+.loginbox1 {
+  background: #064d8731 0% 0% no-repeat padding-box;
+
+  width: 50%;
+}
+.loginbox2 {
+  width: 50%;
+}
+.navlofogo img {
+  width: 13vw;
+  object-fit: contain;
+  cursor: pointer;
+}
+.loginbox1title {
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-top: 3vw;
+}
+.loginbox1subtitle {
+  letter-spacing: 0px;
+  text-align: center;
+  font-size: 0.81vw;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-top: 0.71vw;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+}
+.loginbox-img img {
+  width: 25vw;
+  margin: 5vw;
+  object-fit: contain;
+  margin-top: 3vw;
+  cursor: pointer;
+}
+.lgointext {
+  text-align: center;
+
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 1.7vw;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-top: 2.5vw;
+}
+.loginfield {
+  width: 32vw;
+  margin: 1.52vw auto;
+  display: flex;
+  position: relative;
+  left: 1vw;
+}
+
+.forget-password {
+  width: 30vw;
+  text-align: right;
+  font: normal normal medium 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  margin: 0;
+  margin: auto;
+  font-size: 1vw;
+  font-family: Poppins;
+  font-weight: 500;
+
+  position: relative;
+  bottom: 1vw;
+}
+.loginbutton {
+  width: 30vw;
+  margin: 0 3.74vw;
+  height: 3vw;
+  background: #0052cc 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal medium 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  outline: none;
+  border: none;
+  font-size: 1.1vw;
+  font-family: Poppins;
+  margin-left: 10vw;
+  font-weight: 500;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 1.4vw !important;
+}
+.Loginor {
+  font-size: 1.1vw;
+  font-family: Poppins;
+  color: #5c5a5a;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: 1.5vw 0vw;
+}
+.linelogin {
+  width: 10vw;
+  height: 0.1vw;
+  margin: 0 1vw;
+  margin-top: 0.81vw;
+  background-color: #8b8686;
+}
+.continueloginwithdont {
+  font-size: 1.1vw;
+  font-family: Poppins;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin: 1.5vw 0vw;
+}
+.continueloginwithdont span {
+  color: #44647e;
+  margin-left: 1vw;
+}
+.scicailsign {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 0.4vw;
+  border-radius: 0.2vw;
+}
+.scicailsign img {
+  width: 2vw;
+  object-fit: contain;
+}
+.continueloginwith {
+  width: 15vw;
+  margin: 1vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.continueloginwithx {
+  font-size: 1.1vw;
+  font-family: Poppins;
+  color: black;
+  font-weight: 400;
+  width: fit-content;
+  margin: auto;
+}
+
+.dropdownboxhoverdefault {
+  width: 14vw;
+  height: fit-content;
+  border-radius: 0.41vw;
+  background-color: white;
+  box-shadow: 2px 2px 5px 2px #00000029;
+  position: relative;
+  right: 5vw;
+  transition: all 1s;
+}

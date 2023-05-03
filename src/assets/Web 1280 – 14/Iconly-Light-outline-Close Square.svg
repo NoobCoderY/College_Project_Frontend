@@ -1,0 +1,6 @@
+<svg id="Iconly_Light-outline_Close_Square" data-name="Iconly/Light-outline/Close Square" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Iconly_Light-outline_Close_Square_Background_" data-name="Iconly/Light-outline/Close Square (Background)" width="24" height="24" fill="none"/>
+  <g id="Close_Square" data-name="Close Square" transform="translate(2 2)">
+    <path id="Close_Square-2" data-name="Close Square" d="M5.665,20a5.5,5.5,0,0,1-4.109-1.651A6.043,6.043,0,0,1,0,14.084V5.916A6.044,6.044,0,0,1,1.558,1.651,5.5,5.5,0,0,1,5.665,0h8.67a5.5,5.5,0,0,1,4.109,1.651A6.043,6.043,0,0,1,20,5.916v8.168a6.042,6.042,0,0,1-1.557,4.265A5.5,5.5,0,0,1,14.333,20ZM1.5,5.916v8.168c0,2.683,1.634,4.416,4.164,4.416h8.669c2.532,0,4.167-1.733,4.167-4.416V5.916c0-2.682-1.635-4.415-4.166-4.415H5.665C3.135,1.5,1.5,3.234,1.5,5.916Zm10.45,7.077-.084-.073L10,11.052,8.133,12.917A.75.75,0,0,1,7,11.94l.073-.084L8.938,9.991,7.07,8.123a.75.75,0,0,1,.976-1.133l.084.073L10,8.931l1.866-1.867A.75.75,0,0,1,13,8.041l-.072.085L11.059,9.991l1.868,1.868a.75.75,0,0,1-.977,1.133Z" fill="#200e32"/>
+  </g>
+</svg>

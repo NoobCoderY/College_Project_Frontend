@@ -1,0 +1,131 @@
+.inputtypeformfield {
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  height: 2.5vw;
+  width: 100%;
+  padding: 0.2vw;
+  display: flex;
+  align-items: center;
+  margin: 0.81vw 0;
+}
+body {
+  overflow-x: hidden;
+}
+.inputtypeformfield input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-size: 1vw;
+  line-height: 1.2vw;
+}
+
+.makeStyles-select2-2 {
+  height: 2vw !important;
+}
+
+.makeStyles-icon-7 {
+  fill: black !important;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+  height: 100% !important;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root ::after {
+  border-bottom: 2px solid white !important;
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid white !important;
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 2px solid white !important;
+}
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input
+  .css-1vv4lmi {
+  padding-right: 24px;
+  min-width: 16px;
+  /* color: gray !important; */
+  font-size: 1vw !important;
+  font-family: Poppins;
+}
+.css-1vv4lmi ::after {
+  border-bottom: 2px solid transparent !important;
+}
+.css-1vv4lmi:after {
+  border-bottom: 2px solid transparent !important;
+}
+.css-1vv4lmi:before {
+  border-bottom: 2px solid transparent !important;
+}
+
+.selectbuttonfilter {
+  width: fit-content;
+  padding: 0.61vw 1.5vw;
+  background: var(--unnamed-color-e4e4e4) 0% 0% no-repeat padding-box;
+  background: #e4e4e4 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: black;
+  opacity: 0.7;
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: Poppins;
+  margin: 1vw;
+  cursor: pointer;
+}
+
+.selectbuttonfilter1 {
+  width: fit-content;
+  padding: 0.61vw 1.5vw;
+  color: white;
+  background: var(--unnamed-color-064c87) 0% 0% no-repeat padding-box;
+  background: #0052cc 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: Poppins;
+  margin: 1vw;
+  cursor: pointer;
+}
+.backbutton {
+  width: 3vw;
+  height: 3vw;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.projectAddbar textarea {
+  width: 68vw;
+  height: 12vw;
+  margin-top: 0.51vw;
+  margin-right: 2vw;
+  padding: 0.5vw;
+  font-size: 1vw;
+  outline: none;
+  font-weight: 500;
+  background: #ffffff;
+  border: 2px solid #858585;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: black;
+
+  padding-right: 1vw;
+  margin-bottom: 2vw;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0.5vw !important;
+}

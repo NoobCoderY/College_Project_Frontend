@@ -1,0 +1,187 @@
+.addCatalogcontainer {
+  width: 70vw;
+  margin: 2vw auto;
+  padding: 1vw;
+  padding-left: 1.3vw;
+  background-color: white;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+.inputfilebox {
+  width: 99%;
+  height: 15vw;
+  border: 1.5px dashed gray;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.inputicon {
+  width: 3vw;
+  height: 3vw;
+  background-color: rgba(207, 207, 207, 0.623);
+  border-radius: 0.2vw;
+  text-align: center;
+  padding: 0.6vw;
+  margin: auto;
+  cursor: pointer;
+}
+.inputicon img {
+  cursor: pointer;
+  width: 1vw;
+  object-fit: contain;
+}
+.inputcateaddformfile {
+  font-size: 0.9vw;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  margin: 0.51vw auto;
+  cursor: pointer;
+  color: rgba(48, 47, 47, 0.26);
+}
+
+.inputfilesshowncatebox {
+  min-height: 2vw;
+  width: 100%;
+  margin-top: 2vw;
+}
+
+.inputfilesshowncatboxsingle {
+  display: flex;
+  height: 2vw;
+  margin: 0.51vw;
+  align-items: center;
+}
+.fileselctednamecate {
+  font-size: 0.9vw;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.inputfilesshowncatboxsingleimg {
+}
+.inputfilesshowncatboxsingleimg img {
+  width: 2vw;
+  margin-right: 1vw;
+  object-fit: contain;
+}
+
+.servicesmenudiv {
+  height: 3vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.servicesmenudiv {
+  font-size: 0.91vw;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.servicesmenuname1 {
+  width: 50%;
+}
+
+.servicesmenuname2 {
+  width: 20%;
+}
+.servicesmenuname3 {
+  width: 20%;
+}
+.servicesmenuname4 {
+  width: 5%;
+}
+.servicesmenuname1box {
+  width: 50%;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 0.6;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  padding: 0.5vw;
+}
+
+.servicesmenuname2box {
+  width: 20%;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 0.6;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  padding: 0.5vw;
+}
+.servicesmenuname3box {
+  width: 20%;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 0.6;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  padding: 0.5vw;
+}
+.servicesmenuname4box {
+  width: 5%;
+}
+.servicesmenuname4box img {
+  width: 1.5vw;
+  object-fit: contain;
+}
+
+.servicesmenudiv input {
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  font-family: Poppins;
+  font-weight: 400;
+  width: 100%;
+}
+.addmoreservicecatalog {
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  font-size: 1vw;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.checkboxfromcate {
+  display: flex;
+  align-items: center;
+  font-size: 0.95vw;
+  font-family: Poppins;
+  font-weight: 400;
+  cursor: pointer;
+}
+.checkboxfromcate span {
+  color: #0052cc;
+}
+
+.checkboxfromcate img {
+  width: 1.2vw;
+  margin: 0.51vw;
+  object-fit: contain;
+}
+.cateaddlastcheck {
+  display: flex;
+  font-size: 0.95vw;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #00000080;
+  margin-top: 2vw;
+}

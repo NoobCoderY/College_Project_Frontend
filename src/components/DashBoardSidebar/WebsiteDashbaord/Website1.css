@@ -1,0 +1,314 @@
+.Website-bannerx {
+  width: 80vw;
+  margin: 2vw;
+  display: flex;
+  align-items: flex-start;
+  min-height: 40vw;
+  z-index: 5;
+}
+
+.kok1x {
+  width: 55vw;
+  border-radius: 50% 50% 50% 50%;
+  height: 50vw;
+  background-color: black;
+  position: relative;
+  left: 50vw;
+  bottom: 20vw;
+  z-index: 1;
+}
+.websitebannerdetailx {
+  width: 40vw;
+  z-index: 5;
+}
+.websitebannerimgx {
+  width: 50vw;
+  margin-top: 5vw;
+  z-index: 5;
+}
+.websitebannerimgx img {
+  width: 50vw;
+
+  object-fit: contain;
+}
+
+.websiteoffercontainerx {
+  width: 80vw;
+  margin: 2vw;
+}
+
+.footerContainerx {
+  width: 80vw;
+  margin: 2vw;
+  display: flex;
+  align-items: flex-start;
+}
+
+.Visitwebsitebutton {
+  height: 2vw;
+  border: none;
+  background-color: #0052cc;
+  border-radius: 0.51vw;
+  width: 100%;
+  color: white;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 2vw;
+  margin: 0vw;
+  padding: 0 1vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Website-banner {
+    width: 90vw;
+    margin: 2vw 5vw;
+    display: flex;
+    align-items: flex-start;
+    min-height: 40vw;
+  }
+  
+  .kok {
+    width: 0vw;
+    height: 0vw;
+  }
+  .kok1 {
+    width: 55vw;
+    border-radius: 50% 50% 50% 50%;
+    height: 50vw;
+    background-color: black;
+    position: relative;
+    left: 50vw;
+    bottom: 20vw;
+    z-index: -1;
+  }
+  .websitebannerdetail {
+    width: 40vw;
+  }
+  .websitebannerimg {
+    width: 50vw;
+    margin-top: 5vw;
+  }
+  
+  .websitebannerimg img {
+    width: 50vw;
+    height: 40vw;
+    object-fit: contain;
+  }
+  .navofwebsite {
+    width: fit-content;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+  }
+  .navofwebsite img {
+    width: 4vw;
+    object-fit: contain;
+    height: fit-content;
+  }
+  .websitelogoname {
+    width: fit-content;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 2vw;
+  }
+  
+  .webbannertitle {
+    margin-top: 7vw;
+    font-size: 3vw;
+    width: 25vw;
+    font-weight: 600;
+  }
+  
+  .webbannertitle1 {
+    width: 30vw;
+    margin-top: 2vw;
+  }
+  .webbannertitle1 {
+    width: 30vw;
+    margin-top: 1vw;
+  }
+  
+  .websiteoffercontainer {
+    width: 90vw;
+    margin: 2vw 5vw;
+  }
+  
+  .offerheading {
+    font-size: 1.6vw;
+    margin: 1vw 0vw;
+    font-weight: 500;
+    line-height: 2vw;
+  }
+  .flexofoffers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .offerswebsite {
+    width: 16vw;
+    height: 18vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    box-shadow: -7px -7px 15px #e9e9e9, 10px 10px 20px rgba(124, 124, 124, 0.4);
+    position: relative;
+    border-radius: 13.3455px;
+  }
+  .offerswebsite::before {
+    content: "";
+    width: 16vw;
+    height: 18vw;
+    background: linear-gradient(180deg, #000000e5 0%, rgba(0, 0, 0, 0) 82.33%);
+    position: absolute;
+    border-radius: 13.3455px;
+  }
+  
+  .nameofferweb {
+    font-size: 1vw;
+    color: white;
+    padding: 1vw;
+    position: relative;
+  }
+  .headofferweb {
+    font-size: 1.3vw;
+    color: white;
+    padding: 1vw;
+    padding-top: 0vw;
+    position: relative;
+  }
+  
+  .Menuwebsite {
+    width: 16vw;
+    height: 18vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+  
+    background: white;
+    box-shadow: -7px -7px 15px #e9e9e9, 10px 10px 20px rgba(124, 124, 124, 0.4);
+    border-radius: 16px;
+  }
+  .Menuwebsite img {
+    width: 14vw;
+    height: 12vw;
+    object-fit: contain;
+  }
+  
+  .namemenuweb {
+    font-size: 1.2vw;
+    color: black;
+    padding: 1vw 0;
+    line-height: 1.5vw;
+    padding-bottom: 0vw;
+    font-weight: 500;
+    padding-top: 0.5vw;
+  }
+  .stockmenuweb {
+    font-size: 0.8vw;
+    color: #0052cc;
+    line-height: 1vw;
+    font-weight: 400;
+  }
+  
+  .pricemenuweb {
+    font-size: 0.91vw;
+    color: black;
+    padding: 1vw 0;
+    padding-top: 0vw;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+  
+    align-items: center;
+  }
+  
+  .footerContainer {
+    width: 90vw;
+    margin: 2vw 5vw;
+    display: flex;
+    align-items: flex-start;
+  }
+  .Linkswebfootere {
+    display: flex;
+    align-items: center;
+  
+    margin: 1vw;
+  }
+  .websitefooterlogo {
+    width: 40vw;
+  }
+  .linkimagewebsite {
+    margin-left: 1.5vw;
+  }
+  .addresswebsite {
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 1vw;
+  }
+  .websitefooteraddress {
+    width: 50vw;
+    text-align: left;
+  }
+  
+  .cartwebsite {
+    width: 28vw;
+    height: 15vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    display: flex;
+  
+    background: #fafafa;
+    box-shadow: -7px -7px 15px #e9e9e9, 10px 10px 20px rgba(124, 124, 124, 0.4);
+    border-radius: 16px;
+  }
+  .cartwebsite img {
+    width: 9vw;
+    height: 9vw;
+    margin: 1vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
+  }
+  
+  .cartquantity {
+    width: 7vw;
+    height: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 1vw;
+    background-color: rgba(179, 176, 176, 0.288);
+    border-radius: 1vw;
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+  
+  .orderdtailsinfoaddress {
+    width: 55%;
+  }
+  .orderdtailsinfopayment {
+    width: 40%;
+  }
+  .Websiteshopingbutton {
+    width: fit-content;
+    height: 2.5vw;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 0vw 1vw;
+    color: white;
+  }
+  
+  .websiteaddresdetailinput {
+    border: none;
+    font-size: 1.05vw;
+    font-weight: 500;
+    line-height: 2vw;
+    width: 100%;
+    outline: none;
+    height: fit-content;
+  
+  }
+  

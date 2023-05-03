@@ -1,0 +1,6 @@
+<svg id="Iconly_Light-outline_Time_Circle" data-name="Iconly/Light-outline/Time Circle" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Iconly_Light-outline_Time_Circle_Background_" data-name="Iconly/Light-outline/Time Circle (Background)" width="16" height="16" fill="none"/>
+  <g id="Time_Circle" data-name="Time Circle" transform="translate(1.333 1.334)">
+    <path id="Time_Circle-2" data-name="Time Circle" d="M0,6.667a6.667,6.667,0,1,1,6.667,6.667A6.674,6.674,0,0,1,0,6.667Zm1,0A5.667,5.667,0,1,0,6.667,1,5.673,5.673,0,0,0,1,6.667ZM8.759,9.089,8.7,9.058l-2.513-1.5A.5.5,0,0,1,5.947,7.2l-.005-.074V3.9a.5.5,0,0,1,1-.068l0,.068V6.844L9.211,8.2a.5.5,0,0,1,.2.625l-.031.061a.5.5,0,0,1-.625.2Z" fill="#200e32"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+.navoftableblogs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 1.05vw;
+  font-weight: 500;
+  font-family: Poppins;
+  margin: 1vw 1vw;
+  padding: 0vw 1vw;
+}
+.navoftableblogsdata {
+  display: flex;
+  width: 80vw;
+  font-size: 0.95vw;
+  font-weight: 400;
+  font-family: Poppins;
+  margin: 1vw 1vw;
+  color: rgba(48, 47, 47, 0.747);
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 0vw 1vw;
+}
+.navoftableblogsdata > div {
+  padding-right: 1vw;
+}
+.navoftableblogsdataimg {
+  width: 85%;
+  height: 8vw;
+  border-radius: 0.4vw;
+  object-fit: cover;
+}

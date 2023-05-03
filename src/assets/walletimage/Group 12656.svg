@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_12656" data-name="Group 12656" transform="translate(23221 1840)">
+    <g id="More_Circle" data-name="More Circle" transform="translate(-23218 -1837)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M18.5,9.25A9.25,9.25,0,1,1,9.25,0,9.251,9.251,0,0,1,18.5,9.25Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Fill_3" data-name="Fill 3" d="M0,1.2a1.2,1.2,0,1,1,1.2,1.2A1.2,1.2,0,0,1,0,1.2Z" transform="translate(3.573 8.052)" fill="#200e32"/>
+      <path id="Fill_5" data-name="Fill 5" d="M0,1.2a1.2,1.2,0,1,1,1.2,1.2A1.2,1.2,0,0,1,0,1.2Z" transform="translate(8.052 8.052)" fill="#200e32"/>
+      <path id="Fill_7" data-name="Fill 7" d="M0,1.2a1.2,1.2,0,1,1,1.2,1.2A1.2,1.2,0,0,1,0,1.2Z" transform="translate(12.531 8.052)" fill="#200e32"/>
+    </g>
+    <rect id="Iconly_Light_More_Circle_Background_" data-name="Iconly/Light/More Circle (Background)" width="24" height="24" transform="translate(-23221 -1840)" fill="none"/>
+  </g>
+</svg>

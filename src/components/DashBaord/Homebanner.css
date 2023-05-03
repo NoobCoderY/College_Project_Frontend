@@ -1,0 +1,600 @@
+.hbanner-container {
+  height: 39vw;
+  width: 100vw;
+  background-color: #e4ecf2;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 4.5vw;
+}
+.h-banner-data {
+  width: 45vw;
+}
+.h-banner-accerlate {
+  text-align: left;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 3vw;
+}
+
+.h-banner-carrierland {
+  text-align: left;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: black;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 3vw;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 4vw;
+}
+.hbsmalltext {
+  text-align: left;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 0.8vw;
+  font-family: Poppins;
+  width: 40vw;
+  font-weight: 400;
+  line-height: 1.3vw;
+}
+.buttons-habnner {
+  margin: 2vw 0vw;
+  width: 27vw;
+  display: flex;
+  justify-content: space-between;
+}
+.hb-button {
+  width: 9vw;
+  height: 2.8vw;
+  border: none;
+  outline: none;
+  background-color: #0052cc;
+  border-radius: 0.2vw;
+  color: white;
+  font-family: Poppins;
+  font-size: 0.95vw;
+  font-weight: 500;
+  line-height: 1.3vw;
+}
+.hb-buttonx {
+  width: 9vw;
+  height: 2.8vw;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 0.95vw;
+  border: 1px solid #0052cc;
+  border-radius: 0.2vw;
+  color: #0052cc;
+  font-family: Poppins;
+
+  font-weight: 500;
+  line-height: 1.3vw;
+}
+.serachjobbox {
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  height: 3vw;
+  background-color: #e4e4e43d;
+  margin-left: 1vw;
+  padding-left: 0.5vw;
+  border-radius: 0.3vw;
+}
+.serachjobbox input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  height: 2vw;
+  font-family: Poppins;
+  font-size: 1.25vw;
+  font-weight: 400 !important;
+  line-height: 1.3vw;
+  margin-right: 0.51vw;
+}
+
+.home-banner-img {
+  width: 40vw;
+  padding: 1vw 7vw;
+}
+.home-banner-img img {
+  width: 28vw;
+  object-fit: contain;
+}
+
+.hb-5boxesresult {
+  width: 87vw;
+  margin: auto;
+  height: 10vw;
+  background-color: white;
+  border: 0.61vw;
+  position: relative;
+  bottom: 5.5vw;
+  padding: 1.6vw;
+  display: flex;
+  border-radius: 0.3vw;
+  justify-content: space-between;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.hb-trustbox {
+  background: #e4ecf2 0% 0% no-repeat padding-box;
+  border-radius: 0.3vw;
+  opacity: 1;
+  width: 14vw;
+  display: flex;
+  padding: 1vw;
+  height: 7vw;
+  align-items: center;
+}
+
+.hbimgminibox {
+  width: 4vw;
+}
+.hbimgmini {
+  width: 4vw;
+}
+.hbimgmini img {
+  width: 3vw;
+  object-fit: contain;
+}
+
+.hbtrusttext {
+  text-align: left;
+  font: normal normal normal 12px/18px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-size: 0.85vw;
+}
+.hbtrusttext-exactvalue {
+  top: 661px;
+  left: 158px;
+  width: 100px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  font-size: 1.15vw;
+}
+
+.home-postjob-container {
+  width: 75vw;
+  display: flex;
+  height: 45vw;
+}
+.homepostjob-left {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000f;
+  opacity: 1;
+  width: 37.5vw;
+  padding: 2vw 3.5vw;
+}
+.homepostjob-right {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000f;
+  opacity: 1;
+  width: 37.5vw;
+  padding-left: 1.5vw !important;
+}
+
+.jobpostedformheading {
+  text-align: left;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  font-size: 1.3vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 2vw;
+  text-align: center;
+  margin: 2vw 0vw;
+  margin-top: 0vw;
+}
+.jobpostfieldinputbox {
+  display: flex;
+}
+.jobpostfieldinputbox input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #7070705b;
+  border-radius: 4px;
+  width: 29vw;
+  height: 3vw;
+  margin: 0.5vw 0vw;
+  padding-right: 2vw;
+  padding-left: 1vw;
+
+  outline: none;
+}
+.jobpostfieldinputbox textarea {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #7070705b;
+  border-radius: 4px;
+  width: 29vw;
+  height: 10vw;
+  margin: 0.5vw 0vw;
+  padding-right: 2vw;
+  padding-left: 1vw;
+
+  outline: none;
+}
+.jobpostfieldinputbox input :focus {
+  outline: none;
+  border: none;
+}
+.homejobpostimgsec {
+  width: 30vw;
+  margin: auto;
+  margin-top: 3vw;
+  text-align: center;
+}
+.homejobpostimgsec img {
+  width: 30vw;
+  margin: auto;
+  object-fit: contain;
+}
+
+.jobpodtedfieldtitile {
+  text-align: left;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  font-size: 1vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 2vw;
+  text-align: left;
+}
+
+.homjobpost-popbudegt {
+  display: flex;
+
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  font-size: 0.81vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 2vw;
+  text-align: left;
+}
+.min-maxhomejob {
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  font-size: 0.91vw;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 3vw;
+  text-align: left;
+}
+.input-homejobformdate {
+  height: 1.92vw;
+  width: 98%;
+  margin: auto;
+  border: none;
+  outline: none;
+}
+.fileinputbox {
+  background: #b7393900 0% 0% no-repeat padding-box;
+  border: 2px dashed #8f92a133;
+  width: 29vw;
+  height: 10vw;
+  border-radius: 1vw;
+  margin: 0.51vw 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.selectedhjobfile {
+  display: flex;
+  width: 29vw;
+  margin-top: 0.71vw;
+  margin-bottom: 0.71vw;
+  align-items: center;
+}
+.selectedhjobfile img {
+  width: 1.72vw;
+  object-fit: contain;
+  margin-right: 1vw;
+}
+
+.homepostjobtrust {
+  margin-top: 1vw;
+  margin: auto;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25vw;
+  font-weight: 500 !important;
+  line-height: 1.2vw;
+}
+.okmobilejobform {
+  margin-top: 3vw;
+  margin: auto;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 1.025vw;
+  font-weight: 500 !important;
+  line-height: 1.2vw;
+  position: relative;
+  top: 1.5vw;
+  left: 1vw;
+}
+.checktemandc {
+  width: 29vw;
+  display: flex;
+  margin: 1vw 0vw;
+}
+.checkbox {
+  width: 1vw;
+  height: 1vw;
+  border: 1px solid #7070705b;
+  border-radius: 0.1vw;
+  display: flex;
+}
+.checktermandconditiontext {
+  margin: 0 0.51vw;
+  font-family: Poppins;
+  font-size: 0.75vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+}
+.checktermandconditiontext span {
+  margin: 0 0.51vw;
+  color: #0052cc;
+}
+
+.homejobbuttons {
+  width: 30vw;
+  display: flex;
+  margin-top: 2.5vw;
+  position: relative;
+
+  justify-content: space-between;
+}
+.homejobbuttons button {
+  border: 2px solid #064d87;
+  width: 8vw;
+  height: 2.7vw;
+  background: #0052cc;
+  outline: none;
+  font-family: Poppins;
+  font-size: 1vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  color: #0052cc;
+  border-radius: 0.2vw;
+}
+.homejobpostcinfirm-container {
+  width: 75vw;
+  height: 50vw;
+  padding: 2vw;
+}
+.homejobpostconfirmthankuhead {
+  text-align: center;
+  font: normal normal medium 30px/46px Poppins;
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  font-family: Poppins;
+  font-size: 2vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  color: #0052cc;
+  margin-top: 1vw;
+}
+
+.homejobpostconfirmthankuheadrequire {
+  text-align: center;
+  font: normal normal medium 30px/46px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  margin: 4vw auto;
+  margin-bottom: 1vw;
+}
+.homejobpostconfirmheadrequire {
+  text-align: center;
+  font: normal normal medium 30px/46px Poppins;
+  letter-spacing: 0px;
+  color: #0000008f;
+  opacity: 1;
+  font-family: Poppins;
+  font-size: 1vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  margin: 1.5vw auto;
+}
+.homejobconfirmcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.homejobconfirmleft {
+  width: 50%;
+  padding-top: 2vw;
+}
+.homejobconfirmleft img {
+  width: 85%;
+  object-fit: contain;
+  margin: auto;
+  margin-left: 4vw;
+}
+
+.jobconfirmdetails {
+  width: 25vw;
+  margin: auto;
+}
+.homejobconfirmright button {
+  width: 20vw;
+  height: 3vw;
+  background: #0052cc;
+  border-radius: 0.3vw;
+  font-family: Poppins;
+  font-size: 1vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-left: 6vw;
+}
+.homejobconfirmright {
+  width: 50%;
+}
+.homejobconfirmdata {
+  display: flex;
+  align-items: center;
+  margin: 1vw auto;
+}
+.jobconfirmdetails {
+  margin: auto;
+  margin-top: 8vw;
+  margin-bottom: 7vw;
+  margin-left: 5vw;
+}
+.imgofjobconfirmdetails img {
+  width: 1.4vw;
+  object-fit: contain;
+  margin: 0 1vw;
+}
+.homejocconfirmdattye {
+  width: 11vw;
+  font-family: Poppins;
+  font-size: 1.2vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  color: #0052cc;
+}
+.homejocconfirmdattye-value {
+  width: 11vw;
+  font-family: Poppins;
+  font-size: 1.2vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+  color: #000000;
+}
+
+.recentsearch {
+  text-align: left;
+  font: normal normal normal 12px/18px Poppins;
+  letter-spacing: 0px;
+  color: #200e32;
+  opacity: 0.8;
+  font-family: Poppins;
+  font-size: 0.91vw;
+  font-weight: 500 !important;
+  line-height: 0.99vw;
+}
+.recentnamesearc {
+  text-align: left;
+  font: normal normal normal 12px/18px Poppins;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.767);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-family: Poppins;
+  font-size: 1vw;
+  font-weight: 500 !important;
+  line-height: 1.8vw;
+  margin-top: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1vw;
+}
+
+.biddinglistcontainer {
+  width: 75vw;
+  width: 75vw;
+  overflow: scroll;
+  height: 46vw;
+}
+
+.jobpodtedfieldtitilebiddinglist {
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+}
+.headingtable-container {
+  width: 90%;
+  height: 4vw;
+  background: #0052cc 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingtable-container > div {
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.1vw;
+
+  width: 16%;
+  color: white;
+}
+.headingtable-containerx {
+  width: 200vw;
+  height: 3.5vw;
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin: 0.42vw 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 3px 6px #00000012;
+}
+.headingtable-containerx > div {
+  letter-spacing: 0px;
+  color: #0052cc;
+  opacity: 1;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.1vw;
+
+  width: 16%;
+  color: rgb(0, 0, 0);
+}
+
+.bidaccessform {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.1vw;
+  cursor: pointer;
+  width: 16%;
+  color: #0052cc;
+  text-decoration: underline;
+}

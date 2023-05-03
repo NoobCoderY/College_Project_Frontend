@@ -1,0 +1,68 @@
+.activejobpistbudgetbox {
+  line-height: 2.2vw !important;
+  color: #0052cc;
+}
+
+.tableapplidjobflex {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  font-size: 1.4vw;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 1vw;
+}
+.dataapploidjobfle {
+  background: white;
+  width: 93%;
+  margin: auto;
+  display: flex;
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: Poppins;
+  margin-top: 1vw;
+  padding: 2vw 1.5vw;
+  line-height: 1.1vw;
+}
+.dataapploidjobfle > div {
+  padding-right: 1vw;
+}
+.appliedjobformtitleflex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.titilenameappliedpopup {
+  font-size: 1.2vw;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.descriptionappliedpopup {
+  font-size: 0.85vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.descriptionappliedpopup_accepted {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 1.5vw;
+}
+.titilenameappliedpopupmain {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.flexwrapappliedpopup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.activejobpostname:hover {
+  color: #0052cc;
+}

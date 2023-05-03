@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="Iconly_Light_Chart" data-name="Iconly/Light/Chart" opacity="0.8">
+    <rect id="Iconly_Light_Chart_Background_" data-name="Iconly/Light/Chart (Background)" width="19" height="19" fill="none"/>
+    <g id="Chart" transform="translate(2 2)">
+      <path id="Line_182" d="M.476,0V6.86" transform="translate(3.552 5.081)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Line_183" d="M.476,0V5.143" transform="translate(7.052 4.919)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Line_184" d="M.476,0V3.235" transform="translate(10.495 8.3)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Path" d="M3.986,0A3.864,3.864,0,0,0,0,4.189v6.622A3.86,3.86,0,0,0,3.986,15h7.029A3.86,3.86,0,0,0,15,10.811V4.189A3.86,3.86,0,0,0,11.014,0Z" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+    </g>
+  </g>
+</svg>

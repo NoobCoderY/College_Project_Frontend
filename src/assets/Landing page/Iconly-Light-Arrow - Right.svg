@@ -1,0 +1,10 @@
+<svg id="Iconly_Light_Arrow_-_Right" data-name="Iconly/Light/Arrow - Right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Iconly_Light_Arrow_-_Right_Background_" data-name="Iconly/Light/Arrow - Right (Background)" width="24" height="24" fill="none"/>
+  <g id="Iconly_Light_Arrow_-_Right-2" data-name="Iconly/Light/Arrow - Right">
+    <rect id="Iconly_Light_Arrow_-_Right_Background_2" data-name="Iconly/Light/Arrow - Right (Background)" width="24" height="24" fill="none"/>
+    <g id="Arrow_-_Right" data-name="Arrow - Right" transform="translate(4.75 6.25)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M0,0V15" transform="translate(15 6.025) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M12.049,6.05,6.025,0,0,6.05" transform="translate(15) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+    </g>
+  </g>
+</svg>
