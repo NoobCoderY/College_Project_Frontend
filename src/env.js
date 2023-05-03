@@ -1,2 +1,2 @@
-const API_HOST = "https://devapi.SMS.com";
+const API_HOST = "https://collegeq.onrender.com/api/v1";
 export default API_HOST;

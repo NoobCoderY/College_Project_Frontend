@@ -35,11 +35,11 @@ export default function Login() {
 
   const handlelogin = () => {
     const data = {
-      emailId: loginid,
+      email: loginid,
       password: loginpassword,
     };
     axios
-      .post(`${API_HOST}/adminLogin`, data)
+      .post(`${API_HOST}/login`, data)
       .then((res) => {
         setWrongid(false);
         setWrongidp(false);
@@ -49,9 +49,8 @@ export default function Login() {
             user: { ...res.data.success.data },
           })
         );
-
-        localStorage.setItem("token", JSON.stringify(res.data.success.Tokens));
-        localStorage.setItem("user", JSON.stringify(res.data.success.data));
+        localStorage.setItem("token", JSON.stringify(res.data.token));
+        localStorage.setItem("user", JSON.stringify(res.data.user));
         navigate("/dashbaord");
       })
       .catch((e) => {

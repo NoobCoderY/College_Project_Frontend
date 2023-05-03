@@ -152,7 +152,7 @@ export default function Skillpopup({ data, index, page }) {
                 color: "#168B12",
               }}
             >
-              Certify by SMS
+              Certify by Tool44
             </div>
           )}
         </div>
@@ -178,7 +178,7 @@ export default function Skillpopup({ data, index, page }) {
                 color: "#168B12",
               }}
             >
-              verify by SMS
+              verify by Tool44
             </div>
           )}
         </div>
@@ -194,7 +194,7 @@ export default function Skillpopup({ data, index, page }) {
                 borderRadius: "3px",
               }}
             >
-              Virtual Assistant
+            Virtual Assistant
             </button>
           ) : (
             <div

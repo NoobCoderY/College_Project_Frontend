@@ -33,7 +33,7 @@ export default function Skillpopupcopy({ width, data }) {
           {data?.website_id[0]?.websiteName}
         </div>
         <div style={{ width: width > 700 ? "10.4vw" : "50vw" }}>
-          {data?.fullName}
+          {data?.name}
         </div>
         <div style={{ width: width > 700 ? "9vw" : "30vw" }}>
           {" "}

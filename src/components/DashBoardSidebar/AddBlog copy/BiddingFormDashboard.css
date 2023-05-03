@@ -17,6 +17,21 @@
   font-weight: 400;
   margin-left: 1vw;
 }
+.paginationbox {
+    width: 30vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 1vw;
+    font-size: 1.15vw;
+    margin: 1.5vw auto;
+  }
+  .paginationbox > div {
+    width: fit-content;
+    cursor: pointer;
+  }
 .tagblue {
   width: fit-content;
   padding: 0.5vw 1vw;

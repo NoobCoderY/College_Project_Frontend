@@ -86,91 +86,42 @@ export default function BrowseWorkSiadebar() {
   const [colorsidebar, setColorsidebar] = useState(1);
 
   useEffect(() => {
-    if (location.pathname === "/dashbaord") {
+    if (location.pathname === "/dashbaord/add") {
       setColorsidebar(1);
     }
     if (location.pathname === "/dashbaord/users") {
       setColorsidebar(2);
     }
 
-    if (location.pathname === "/dashbaord/Buying-List") {
-      setColorsidebar(3);
-    }
+   
 
-    if (location.pathname === "/dashbaord/products") {
-      setColorsidebar(4);
-    }
 
-    if (location.pathname === "/dashbaord/blogs") {
-      setColorsidebar(5);
-    }
-    if (location.pathname === "/dashbaord/invoice") {
-      setColorsidebar(6);
-    }
-    if (location.pathname === "/dashbaord/addblog") {
-      setColorsidebar(5);
-    }
-    if (location.pathname === "/dashbaord/addblog2") {
-      setColorsidebar(5);
-    }
-    if (location.pathname === "/dashbaord/bookcatalogue") {
-      setColorsidebar(7);
-    }
-    if (location.pathname === "/dashbaord/proposals") {
-      setColorsidebar(8);
-    }
-    if (location.pathname === "/dashbaord/category") {
-      setColorsidebar(9);
-    }
-    if (location.pathname === "/dashbaord/catalogue") {
-      setColorsidebar(10);
-    }
-
-    if (location.pathname === "/dashbaord/faq") {
-      setColorsidebar(11);
-    }
-    if (location.pathname === "/dashbaord/addfaq") {
-      setColorsidebar(11);
-    }
-
-    if (location.pathname === "/dashbaord/addstory") {
-      setColorsidebar(12);
-    }
-    if (location.pathname === "/dashbaord/story") {
-      setColorsidebar(12);
-    }
-
-    if (location.pathname === "/dashbaord/contactUs") {
-      setColorsidebar(13);
-    }
-    if (location.pathname === "/dashbaord/cms") {
-      setColorsidebar(14);
-    }
   }, [location]);
 
   return (
     <div style={{ position: "sticky" }} className="sidebardashbord-container">
-      <Link to="/dashbaord">
+      <Link to="/dashbaord/add">
         <div
+          onClick={() => navigate("/dashbaord/add")}
           className={
             colorsidebar === 1 ? "firstsidebarmenu1" : "firstsidebarmenu"
           }
         >
-          <img style={{ width: "1.8vw" }} src={img} alt="" />
-          Dashboard
+          <img src={img89} alt="" />
+          Add Bin
         </div>
       </Link>
 
-      <div
-        onClick={() => navigate("/dashbaord/users")}
-        className={
-          colorsidebar === 2 ? "firstsidebarmenu1" : "firstsidebarmenu"
-        }
-      >
-        <img src={img89} alt="" />
-        Users
-      </div>
-
+      <Link to="/dashbaord/Buying-List">
+        <div
+          className={
+            colorsidebar === 2 ? "firstsidebarmenu1" : "firstsidebarmenu"
+          }
+        >
+          <img src={img1} alt="" />
+          List of All Bin
+        </div>
+      </Link>
       <Link to="/dashbaord/Buying-List">
         <div
           className={
@@ -178,356 +129,7 @@ export default function BrowseWorkSiadebar() {
           }
         >
           <img src={img1} alt="" />
-          Orders / Buying List
-        </div>
-      </Link>
-      <Link to="/dashbaord/proposals">
-        <div
-          className={
-            colorsidebar === 8 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img1} alt="" />
-          Proposals
-        </div>
-      </Link>
-      <Link to="/dashbaord/bookcatalogue">
-        <div
-          className={
-            colorsidebar === 7 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img3} alt="" />
-          Direct Buy
-        </div>
-      </Link>
-      <Link to="/dashbaord/products">
-        <div
-          className={
-            colorsidebar === 4 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img4} alt="" />
-          Products
-        </div>
-      </Link>
-      <Link to="/dashbaord/catalogue">
-        <div
-          className={
-            colorsidebar === 10 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img5} alt="" />
-          Websites
-        </div>
-      </Link>
-
-      <Link to="/dashbaord/invoice">
-        <div
-          className={
-            colorsidebar === 6 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img6} alt="" />
-          Invoice{" "}
-        </div>
-      </Link>
-
-      <div
-        onClick={handleClick4}
-        className={
-          colorsidebar === 5 ? "firstsidebarmenu1" : "firstsidebarmenu"
-        }
-      >
-        <img src={img7} alt="" />
-        Blogs
-      </div>
-
-      <div
-        onClick={handleClickx}
-        className={
-          colorsidebar === 9 ? "firstsidebarmenu1" : "firstsidebarmenu"
-        }
-      >
-        <img src={img17} alt="" />
-        Category
-      </div>
-      <div
-        onClick={handleClick6}
-        className={
-          colorsidebar === 11 ? "firstsidebarmenu1" : "firstsidebarmenu"
-        }
-      >
-        <img src={img2} alt="" />
-        FAQ
-      </div>
-      <div
-        onClick={handleClick5}
-        className={
-          colorsidebar === 12 ? "firstsidebarmenu1" : "firstsidebarmenu"
-        }
-      >
-        <img src={img2} alt="" />
-        Story
-      </div>
-
-      <Link to="/dashbaord/contactUs">
-        <div
-          className={
-            colorsidebar === 13 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img12} alt="" />
-          Contact Us
-        </div>
-      </Link>
-
-      <Popover
-        id={idx}
-        open={openx}
-        anchorEl={anchorElx}
-        onClose={handleClosex}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
-        }}
-      >
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addcategory");
-            handleClosex();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add Category
-        </Typography>
-
-        <Typography
-          onClick={() => {
-            navigate("/dashbaord/category");
-            handleClosex();
-          }}
-          sx={{ p: 1, pr: 2, pb: 1.5, fontSize: "1.1vw", cursor: "pointer" }}
-        >
-          <img
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          List of Category
-        </Typography>
-      </Popover>
-
-      <Popover
-        id={id2}
-        open={open2}
-        anchorEl={anchorEl2}
-        onClose={handleClose2}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
-        }}
-      >
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addJob");
-            handleClose2();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add Work
-        </Typography>
-
-        <Typography
-          onClick={() => {
-            navigate("/dashbaord/jobs");
-            handleClose2();
-          }}
-          sx={{ p: 1, pr: 2, pb: 1.5, fontSize: "1.1vw", cursor: "pointer" }}
-        >
-          <img
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img23}
-            alt=""
-          />
-          List of Work
-        </Typography>
-      </Popover>
-
-      <Popover
-        id={id4}
-        open={open4}
-        anchorEl={anchorEl4}
-        onClose={handleClose4}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
-        }}
-      >
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addblog");
-            handleClose4();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add Blog (By Author)
-        </Typography>
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addblog2");
-            handleClose4();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add Blog (By Team)
-        </Typography>
-
-        <Typography
-          onClick={() => {
-            navigate("/dashbaord/blogs");
-            handleClose4();
-          }}
-          sx={{ p: 1, pr: 2, pb: 1.5, fontSize: "1.1vw", cursor: "pointer" }}
-        >
-          <img
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img23}
-            alt=""
-          />
-          List of Blogs
-        </Typography>
-      </Popover>
-
-      <Popover
-        id={id5}
-        open={open5}
-        anchorEl={anchorEl5}
-        onClose={handleClose5}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
-        }}
-      >
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addstory");
-            handleClose5();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add Story
-        </Typography>
-
-        <Typography
-          onClick={() => {
-            navigate("/dashbaord/story");
-            handleClose5();
-          }}
-          sx={{ p: 1, pr: 2, pb: 1.5, fontSize: "1.1vw", cursor: "pointer" }}
-        >
-          <img
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img23}
-            alt=""
-          />
-          List of Story
-        </Typography>
-      </Popover>
-      <Popover
-        id={id6}
-        open={open6}
-        anchorEl={anchorEl6}
-        onClose={handleClose6}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
-        }}
-      >
-        <Typography
-          sx={{ p: 1, pr: 2, pb: 1, fontSize: "1.1vw", cursor: "pointer" }}
-          onClick={() => {
-            navigate("/dashbaord/addfaq");
-            handleClose6();
-          }}
-        >
-          <AddIcon
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img7}
-            alt=""
-          />
-          Add FAQ
-        </Typography>
-
-        <Typography
-          onClick={() => {
-            navigate("/dashbaord/faq");
-            handleClose6();
-          }}
-          sx={{ p: 1, pr: 2, pb: 1.5, fontSize: "1.1vw", cursor: "pointer" }}
-        >
-          <img
-            style={{ paddingRight: "1vw", width: "2.5vw" }}
-            src={img23}
-            alt=""
-          />
-          List of FAQ
-        </Typography>
-      </Popover>
-
-      <Link to="/dashbaord/cms">
-        <div
-          className={
-            colorsidebar === 14 ? "firstsidebarmenu1" : "firstsidebarmenu"
-          }
-        >
-          <img src={img8} alt="" />
-          CMS
+          List of Bin
         </div>
       </Link>
     </div>
