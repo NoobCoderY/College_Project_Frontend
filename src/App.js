@@ -100,12 +100,12 @@ function App() {
 
             <Route
               path="/dashbaord/bins"
-              element={<Directbuy width={width} />}
+              element={<Directbuy width={900} />}
             />
 
             <Route
               path="/dashbaord/allbins"
-              element={<Directbuy2 width={width} />}
+              element={<Directbuy2 width={900} />}
             />
           </Route>
         </Routes>

@@ -1,2 +1,2 @@
-const API_HOST = "https://collegeq.onrender.com/api/v1";
+const API_HOST = "http://localhost:4000/api/v1";
 export default API_HOST;

@@ -79,21 +79,28 @@ export default function Addblog2({ width }) {
 
   const handlesumbitBlog = () => {
     const formdata = new FormData();
+    
 
     formdata.append("name", title);
     formdata.append("email", imagetitle);
     formdata.append("address", imageTagAlt);
     formdata.append("pin", metaTag);
+    var object = {};
+formdata.forEach(function(value, key){
+    object[key] = value;
+});
+var json = JSON.stringify(object);
+console.log(json);
 
     axios
-      .post(`${API_HOST}/admin/createbin`, formdata, {
+      .post(`${API_HOST}/admin/createbin`, json, {
         headers: {
-          "Content-Type": "multipart/form-data",
+          "Content-Type": "application/json",
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("token")),
         },
       })
       .then((res) => {
-        navigate("/bins");
+        navigate("/dashbaord/bins");
       })
       .catch((err) => {
         setFirstsumbitblog(false);

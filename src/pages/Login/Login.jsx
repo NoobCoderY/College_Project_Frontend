@@ -38,8 +38,15 @@ export default function Login() {
       email: loginid,
       password: loginpassword,
     };
+    console.log(data);
     axios
-      .post(`${API_HOST}/login`, data)
+      .post(`${API_HOST}/login`, data,{
+        headers: {
+          "Content-type": "application/json"
+        },
+
+      },
+      )
       .then((res) => {
         setWrongid(false);
         setWrongidp(false);
@@ -51,7 +58,7 @@ export default function Login() {
         );
         localStorage.setItem("token", JSON.stringify(res.data.token));
         localStorage.setItem("user", JSON.stringify(res.data.user));
-        navigate("/dashbaord");
+        navigate("/dashbaord/bins");
         document.cookie = `token=${res.cookieValue}; max-age=3600; path=/"`;
       })
       .catch((e) => {

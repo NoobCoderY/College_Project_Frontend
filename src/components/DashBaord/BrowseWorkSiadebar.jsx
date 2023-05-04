@@ -3,26 +3,12 @@ import "./DashBoard.css";
 import img from "../../assets/walletimage/Activity.svg";
 import img1 from "../../assets/Dashboard/Iconly-Light-outline-Bookmark.svg";
 
-import img2 from "../../assets/Dashboard/Iconly-Light-outline-Chart.svg";
-import img3 from "../../assets/Dashboard/Iconly-Light-outline-Buy.svg";
 
-import img4 from "../../assets/Dashboard/Iconly-Light-outline-Document.svg";
-import img5 from "../../assets/Dashboard/Iconly-Light-outline-Paper Plus.svg";
 
-import img6 from "../../assets/Dashboard/Iconly-Light-outline-Work.svg";
-
-import img7 from "../../assets/Dashboard/Iconly-Light-outline-Paper.svg";
-import img8 from "../../assets/Dashboard/Iconly-Light-outline-Setting.svg";
-import img12 from "../../assets/walletimage/Iconly-Light-Location.svg";
-import img17 from "../../assets/walletimage/Group 12656.svg";
 import img89 from "../../assets/Dashboard/Skill center – 2/Iconly-Light-outline-Profile.svg";
 import { Link } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
-import Popover from "@mui/material/Popover";
-import Typography from "@mui/material/Typography";
-import AddIcon from "@mui/icons-material/Add";
-import img23 from "../../assets/Jobs/Iconly-Light-Paper Upload.svg";
-import img18 from "../../assets/walletimage/Iconly-Light-outline-Ticket.svg";
+
 export default function BrowseWorkSiadebar() {
   const [anchorEl2, setAnchorEl2] = React.useState(null);
 
@@ -89,11 +75,13 @@ export default function BrowseWorkSiadebar() {
     if (location.pathname === "/dashbaord/add") {
       setColorsidebar(1);
     }
-    if (location.pathname === "/dashbaord/users") {
+    if (location.pathname === "/dashbaord/bins") {
       setColorsidebar(2);
     }
 
-   
+    if (location.pathname === "/dashbaord/allbins") {
+      setColorsidebar(3);
+    }
 
 
   }, [location]);
